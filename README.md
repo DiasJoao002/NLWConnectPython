@@ -18,19 +18,19 @@
 
 ## 🎯 Funcionalidades / Features
 
-1- Criação, edição e listagem de eventos.  
+- Criação, edição e listagem de eventos.  
   Creation, editing, and listing of events.
 
-2- Gerenciamento de links associados aos eventos.  
+- Gerenciamento de links associados aos eventos.  
   Management of links associated with events.
 
-3- Cadastro e gerenciamento de inscritos para os eventos.  
+- Cadastro e gerenciamento de inscritos para os eventos.  
   Registration and management of subscribers for events.
 
-4- API REST para integração com frontends ou outros serviços.  
+- API REST para integração com frontends ou outros serviços.  
   REST API for integration with frontends or other services.
 
-5- Validação de dados para criação de eventos e inscritos.  
+- Validação de dados para criação de eventos e inscritos.  
   Data validation for event and subscriber creation.
 
 
