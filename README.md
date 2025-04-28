@@ -39,7 +39,7 @@
 Clone o repositório / Clone the repository:
 
     ```bash
-    git clone https://github.com/seu-usuario/nlw_connect_python.git
+    git clone https://github.com/DiasJoao002/nlw_connect_python.git
     cd nlw_connect_python
     cd nlw_connect_python
     ```
