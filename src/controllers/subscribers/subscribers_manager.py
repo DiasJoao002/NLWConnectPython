@@ -6,7 +6,7 @@ class SubscribeManager:
     def __init__(self, subscribers_repo: SubscribersRepositoryInterface):
         self.__subscribers_repo = subscribers_repo
 
-    def get_suscribers_by_link(self, http_request: HttpRequest) -> HttpResponse:
+    def get_subscribers_by_link(self, http_request: HttpRequest) -> HttpResponse:
         link = http_request.param["link"]
         event_id = http_request.param["event_id"]
         subs = self.__subscribers_repo.select_subscribers_by_link(link, event_id)
@@ -33,7 +33,8 @@ class SubscribeManager:
                     "count": len(formatted_subscriber),
                     "subscribers": formatted_subscriber
                 }
-            }
+            },
+            status_code=200
         )
     
     def __format_event_ranking(self, event_ranking: list) -> HttpResponse:
@@ -52,5 +53,6 @@ class SubscribeManager:
                     "count": len(formatted_event_ranking),
                     "ranking": formatted_event_ranking
                 }
-            }
+            },
+            status_code=200
         )

@@ -35,5 +35,6 @@ class EventLinkCreator:
                         "subscriber_id": subscriber_id
                     }
                 }
-            }
+            },
+            status_code=201
         )
